@@ -17,7 +17,7 @@ public interface DataConfig extends Config {
     String getBrowser();
 
     @Key("browserSize")
-    @DefaultValue("1920x1080")
+    @DefaultValue("1024x768")
     String getBrowserSize();
 
     @Key("browserVersion")
