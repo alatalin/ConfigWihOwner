@@ -5,7 +5,7 @@ import org.aeonbits.owner.Config;
 import static com.codeborne.selenide.Browsers.CHROME;
 
 @Config.Sources({
-        "classpath:${env}.properties"
+        "classpath:${environment}.properties"
 })
 public interface DataConfig extends Config {
     @Key("baseUrl")
@@ -17,7 +17,7 @@ public interface DataConfig extends Config {
     String getBrowser();
 
     @Key("browserSize")
-    @DefaultValue("1024x768")
+    @DefaultValue("1920x1080")
     String getBrowserSize();
 
     @Key("browserVersion")

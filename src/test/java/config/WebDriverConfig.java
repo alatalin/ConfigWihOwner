@@ -10,6 +10,7 @@ public class WebDriverConfig {
     }
 
     public void dataConfig() {
+        Configuration.pageLoadStrategy = "eager";
         Configuration.baseUrl = dataConfig.getBaseUrl();
         Configuration.browser = dataConfig.getBrowser();
         Configuration.browserSize = dataConfig.getBrowserSize();
