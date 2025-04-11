@@ -9,7 +9,7 @@ import static com.codeborne.selenide.Browsers.CHROME;
 })
 public interface DataConfig extends Config {
     @Key("baseUrl")
-    @DefaultValue("Remo")
+    @DefaultValue("https://github.com")
     String getBaseUrl();
 
     @Key("browser")
