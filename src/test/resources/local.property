@@ -1,0 +1,4 @@
+baseUrl = https://github.com
+browser = FIREFOX
+browserSize = 1366x768
+browserVersion = 126
